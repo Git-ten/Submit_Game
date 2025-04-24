@@ -1,0 +1,114 @@
+{
+    "Tutorial": {
+        "angle": [ 0.0 ],
+        "center": [ 520, 318 ],
+        "exRate": [ 0.3500000000000001 ],
+        "posLeftUp": [ 149, 28 ],
+        "posRightDown": [ 891, 608 ]
+    },
+    "TutorialMovie": {
+        "angle": [ 0.0 ],
+        "center": [ 520, 316 ],
+        "exRate": [ 0.28999999999999954 ],
+        "posLeftUp": [ 335, 200 ],
+        "posRightDown": [ 705, 432 ]
+    },
+    "TutorialMouse": {
+        "angle": [ 0.0 ],
+        "center": [ 524, 509 ],
+        "exRate": [ 0.26999999999999935 ],
+        "posLeftUp": [ 461, 446 ],
+        "posRightDown": [ 587, 572 ]
+    },
+    "A_Key": {
+        "angle": [ 0.0 ],
+        "center": [ 523, 546 ],
+        "exRate": [ 0.4599999999999995 ],
+        "posLeftUp": [ 484, 511 ],
+        "posRightDown": [ 562, 581 ]
+    },
+    "D_Key": {
+        "angle": [ 0.0 ],
+        "center": [ 608, 547 ],
+        "exRate": [ 0.46999999999999953 ],
+        "posLeftUp": [ 568, 511 ],
+        "posRightDown": [ 648, 583 ]
+    },
+    "S_Key": {
+        "angle": [ 0.0 ],
+        "center": [ 444, 546 ],
+        "exRate": [ 0.4599999999999995 ],
+        "posLeftUp": [ 405, 511 ],
+        "posRightDown": [ 483, 581 ]
+    },
+    "W_Key": {
+        "angle": [ 0.0 ],
+        "center": [ 525, 473 ],
+        "exRate": [ 0.4399999999999995 ],
+        "posLeftUp": [ 488, 439 ],
+        "posRightDown": [ 562, 507 ]
+    },
+    "Key": {
+        "angle": [ 0.0 ],
+        "center": [ 519, 505 ],
+        "exRate": [ 0.6399999999999997 ],
+        "posLeftUp": [ 465, 456 ],
+        "posRightDown": [ 573, 554 ]
+    },
+    "Space_Key": {
+        "angle": [ 0.0 ],
+        "center": [ 525, 496 ],
+        "exRate": [ 1.0 ],
+        "posLeftUp": [ 427, 456 ],
+        "posRightDown": [ 623, 537 ]
+    },
+    "AllKey": {
+        "angle": [ 0.0 ],
+        "center": [ 536, 522 ],
+        "exRate": [ 0.5899999999999996 ],
+        "posLeftUp": [ 338, 383 ],
+        "posRightDown": [ 734, 661 ]
+    },
+    "Button": {
+        "angle": [ 0.0 ],
+        "center": [ 518, 503 ],
+        "exRate": [ 0.6899999999999997 ],
+        "posLeftUp": [ 456, 441 ],
+        "posRightDown": [ 580, 565 ]
+    },
+    "DeleteButton": {
+        "angle": [ 0.0 ],
+        "center": [ 839, 81 ],
+        "exRate": [ 0.20999999999999933 ],
+        "posLeftUp": [ 782, 34 ],
+        "posRightDown": [ 896, 128 ]
+    },
+    "TutorialExplain": {
+        "angle": [ 0.0 ],
+        "center": [ 813, 37 ],
+        "exRate": [ 0.5900000000000002 ],
+        "posLeftUp": [ 625, 20 ],
+        "posRightDown": [ 1001, 54 ]
+    },
+    "Number": {
+        "angle": [ 0.0 ],
+        "center": [ 855, 93 ],
+        "exRate": [ 0.7499999999999998 ],
+        "posLeftUp": [ 817, 45 ],
+        "posRightDown": [ 893, 141 ]
+    },
+    "NumberMax": {
+        "angle": [ 0.0 ],
+        "center": [ 982, 93 ],
+        "exRate": [ 0.7199999999999998 ],
+        "posLeftUp": [ 946, 47 ],
+        "posRightDown": [ 1018, 139 ]
+    },
+    "SymBol": {
+        "angle": [ 0.0 ],
+        "center": [ 918, 95 ],
+        "exRate": [ 0.7099999999999997 ],
+        "posLeftUp": [ 882, 50 ],
+        "posRightDown": [ 954, 140 ]
+    }
+}

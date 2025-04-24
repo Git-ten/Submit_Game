@@ -1,0 +1,51 @@
+{
+    "Numbers": {
+        "angle": [ 0.0 ],
+        "center": [ 443, 192 ],
+        "exRate": [ 1.0 ],
+        "posLeftUp": [ 392, 128 ],
+        "posRightDown": [ 494, 256 ]
+    },
+    "DamageNumbers": {
+        "angle": [ 0.0 ],
+        "center": [ 442, 461 ],
+        "exRate": [ 1.0 ],
+        "posLeftUp": [ 391, 397 ],
+        "posRightDown": [ 493, 525 ]
+    },
+    "Symbols": {
+        "angle": [ 0.0 ],
+        "center": [ 443, 192 ],
+        "exRate": [ 1.0 ],
+        "posLeftUp": [ 392, 128 ],
+        "posRightDown": [ 494, 256 ]
+    },
+    "Result_Damage": {
+        "angle": [ 0.0 ],
+        "center": [ 185, 331 ],
+        "exRate": [ 0.5799999999999996 ],
+        "posLeftUp": [ 12, 256 ],
+        "posRightDown": [ 358, 406 ]
+    },
+    "Result_Time": {
+        "angle": [ 0.0 ],
+        "center": [ 161, 77 ],
+        "exRate": [ 0.53 ],
+        "posLeftUp": [ 3, 8 ],
+        "posRightDown": [ 319, 146 ]
+    },
+    "Result_HeroMovie": {
+        "angle": [ 0.0 ],
+        "center": [ 512, 320 ],
+        "exRate": [ 1.0 ],
+        "posLeftUp": [ 0, 0 ],
+        "posRightDown": [ 1024, 640 ]
+    },
+    "Level": {
+        "angle": [ 0.0 ],
+        "center": [ 903, 49 ],
+        "exRate": [ 0.46999999999999953 ],
+        "posLeftUp": [ 867, 13 ],
+        "posRightDown": [ 1019, 85 ]
+    }
+}

@@ -1,0 +1,325 @@
+{
+    "Hero": {
+        "pos": [ -2586.2409973144531, 238.61708068847656, -462.0160675048828 ],
+        "quaRot": [ 0.6915026431167244, 0.0010527172871204556, 0.7223718671249699, -0.001368186859265605 ],
+        "quaRotLocal": [ 1.0, 0.0, 0.0, 0.0 ],
+        "rot": [ 0.0034325995948165655, 1.6144548654556274, -0.00037130515556782484 ],
+        "scl": [ 0.19000016152858734, 0.19000016152858734, 0.19000016152858734 ]
+    },
+    "Sword": {
+        "pos": [ 0.0, 0.0, 0.0 ],
+        "quaRot": [ 1.0, 0.0, 0.0, 0.0 ],
+        "quaRotLocal": [ 1.0, 0.0, 0.0, 0.0 ],
+        "rot": [ 0.0, 0.0, 0.0 ],
+        "scl": [ 5.8000001668930054, 5.8000001668930054, 5.8000001668930054 ]
+    },
+
+
+    "PlayerHp": {
+        "angle": [ 0.0 ],
+        "center": [ 123, 552 ],
+        "exRate": [ 0.5 ],
+        "posLeftUp": [ 29, 514 ],
+        "posRightDown": [ 217, 590 ]
+    },
+    "DownGage": {
+        "angle": [ 0.0 ],
+        "center": [ 155, 598 ],
+        "exRate": [ 0.18999999999999953 ],
+        "posLeftUp": [ 28, 593 ],
+        "posRightDown": [ 282, 603 ]
+    },
+    "ContinueRepairIcon": {
+        "angle": [ 0.0 ],
+        "center": [ 955, 553 ],
+        "exRate": [ 0.21999999999999947 ],
+        "posLeftUp": [ 899, 497 ],
+        "posRightDown": [ 1011, 609 ]
+    },
+    "IconCase": {
+        "angle": [ 0.0 ],
+        "center": [ 955, 553 ],
+        "exRate": [ 0.22000000000000014 ],
+        "posLeftUp": [ 899, 497 ],
+        "posRightDown": [ 1011, 609 ]
+    },
+    "Numbers_Point_1": {
+        "angle": [ 0.0 ],
+        "center": [ 996, 570 ],
+        "exRate": [ 0.35999999999999943 ],
+        "posLeftUp": [ 978, 547 ],
+        "posRightDown": [ 1014, 593 ]
+    },
+    "Numbers_Point_10": {
+        "angle": [ 0.0 ],
+        "center": [ 973, 570 ],
+        "exRate": [ 0.3399999999999995 ],
+        "posLeftUp": [ 956, 549 ],
+        "posRightDown": [ 990, 591 ]
+    },
+    "Numbers_Digit_1": {
+        "angle": [ 0.0 ],
+        "center": [ 951, 548 ],
+        "exRate": [ 0.5400000000000001 ],
+        "posLeftUp": [ 924, 514 ],
+        "posRightDown": [ 978, 582 ]
+    },
+    "Numbers_Digit_10": {
+        "angle": [ 0.0 ],
+        "center": [ 918, 548 ],
+        "exRate": [ 0.5299999999999996 ],
+        "posLeftUp": [ 891, 515 ],
+        "posRightDown": [ 945, 581 ]
+    },
+    "SkillGage": {
+        "angle": [ 0.0 ],
+        "center": [ 78, 447 ],
+        "exRate": [ 0.3499999999999994 ],
+        "posLeftUp": [ 34, 403 ],
+        "posRightDown": [ 122, 491 ]
+    },
+    "SkillGageCase": {
+        "angle": [ 0.0 ],
+        "center": [ 78, 447 ],
+        "exRate": [ 0.3499999999999994 ],
+        "posLeftUp": [ -50, 319 ],
+        "posRightDown": [ 206, 575 ]
+    },
+
+    "WeaponBone": {
+        "param": [ "mixamorig:RightWeapon" ]
+    },
+    "CollSphere": {
+        "size": [ 130.0 ],
+        "offset": [ -150.0 ]
+    },
+    "Param": {
+        "hp": [ 100.0 ],
+        "hpMax": [ 100.0 ],
+        "speed": [ 50.0 ],
+        "dashSpeed": [ 67.0 ],
+        "flinchParam": [ 0 ],
+        "flinchParamMax": [ 1 ],
+        "jumpPower": [ 45.0 ],
+        "avoidSpeed": [ 60.0 ],
+        "skillGage": [ 100.0 ],
+        "skillGageMax": [ 100.0 ],
+        "attackPower": [ 10.0 ],
+
+        "attackCollision_Skill": [ 10.0 ],
+        "chargeStep": [ 15.0 ]
+    },
+
+    "IDLE": {
+        "path": [ "Hero/Idle_2.mv1" ],
+        "animationSpeed": [ 50.0 ],
+        "startStep": [ 0.0 ],
+        "endStep": [ 59.0 ],
+        "isLoop": [ true ]
+    },
+    "MOVE": {
+        "path": [ "Hero/Move.mv1" ],
+        "animationSpeed": [ 30.0 ],
+        "startStep": [ 0.0 ],
+        "endStep": [ 24.0 ],
+        "isLoop": [ true ]
+    },
+    "WALK": {
+        "path": [ "Hero/Walk.mv1" ],
+        "animationSpeed": [ 6.0 ],
+        "startStep": [ 0.0 ],
+        "endStep": [ 20.0 ],
+        "isLoop": [ false ]
+    },
+    "DASH_MOVE": {
+        "path": [ "Hero/DashMove.mv1" ],
+        "animationSpeed": [ 40.0 ],
+        "startStep": [ 0.0 ],
+        "endStep": [ 22.0 ],
+        "isLoop": [ true ]
+    },
+
+    "JUMP": {
+        "path": [ "Hero/Jump.mv1" ],
+        "animationSpeed": [ 30.0 ],
+        "startStep": [ 10.0 ],
+        "endStep": [ 42.0 ],
+        "isLoop": [ false ]
+    },
+    "AVOID": {
+        "path": [ "Hero/Avoid.mv1" ],
+        "animationSpeed": [ 55.0 ],
+        "startStep": [ 5.0 ],
+        "endStep": [ 44.0 ],
+        "isLoop": [ false ]
+    },
+    "MIDDLE": {
+        "path": [ "Hero/Middle.mv1" ],
+        "animationSpeed": [ 30.0 ],
+        "startStep": [ 3.0 ],
+        "endStep": [ 40.0 ],
+        "isLoop": [ false ]
+    },
+    "MIDDLE_ATTACK": {
+        "path": [ "Hero/Middle_Attack.mv1" ],
+        "animationSpeed": [ 50.0 ],
+        "startStep": [ 0.0 ],
+        "endStep": [ 40.0 ],
+        "isLoop": [ false ]
+    },
+    "ATTACK_1": {
+        "path": [ "Hero/Attack_1.mv1" ],
+        "animationSpeed": [ 110.0 ],
+        "startStep": [ 0.0 ],
+        "endStep": [ 45.0 ],
+        "isLoop": [ false ]
+    },
+    "ATTACK_2": {
+        "path": [ "Hero/Attack_2.mv1" ],
+        "animationSpeed": [ 110.0 ],
+        "startStep": [ 0.0 ],
+        "endStep": [ 54.0 ],
+        "isLoop": [ false ]
+    },
+    "ATTACK_3": {
+        "path": [ "Hero/ATTACK_3.mv1" ],
+        "animationSpeed": [ 110.0 ],
+        "startStep": [ 0.0 ],
+        "endStep": [ 72.0 ],
+        "isLoop": [ false ]
+    },
+    "ATTACK_4": {
+        "path": [ "Hero/ATTACK_4.mv1" ],
+        "animationSpeed": [ 110.0 ],
+        "startStep": [ 0.0 ],
+        "endStep": [ 56.0 ],
+        "isLoop": [ false ]
+    },
+    "ATTACK_5": {
+        "path": [ "Hero/ATTACK_5.mv1" ],
+        "animationSpeed": [ 110.0 ],
+        "startStep": [ 0.0 ],
+        "endStep": [ 80.0 ],
+        "isLoop": [ false ]
+    },
+    "ATTACK_6": {
+        "path": [ "Hero/ATTACK_6.mv1" ],
+        "animationSpeed": [ 60.0 ],
+        "startStep": [ 0.0 ],
+        "endStep": [ 39.0 ],
+        "isLoop": [ false ]
+    },
+    "AVOID_ATTACK": {
+        "path": [ "Hero/Avoid_Attack.mv1" ],
+        "animationSpeed": [ 80.0 ],
+        "startStep": [ 10.0 ],
+        "endStep": [ 73.0 ],
+        "isLoop": [ false ]
+    },
+    "CHARGE_ATTACK": {
+        "path": [ "Hero/Charge_Attack.mv1" ],
+        "animationSpeed": [ 50.0 ],
+        "startStep": [ 0.0 ],
+        "endStep": [ 50.0 ],
+        "isLoop": [ false ]
+    },
+    "CHARGE_HORIZONTAL_ATTACK": {
+        "path": [ "Hero/Horizontal_Attack.mv1" ],
+        "animationSpeed": [ 140.0 ],
+        "startStep": [ 0.0 ],
+        "endStep": [ 75.0 ],
+        "isLoop": [ false ]
+    },
+    "CHARGE_FORWARD_ATTACK": {
+        "path": [ "Hero/Forward_Attack.mv1" ],
+        "animationSpeed": [ 150.0 ],
+        "startStep": [ 0.0 ],
+        "endStep": [ 109.0 ],
+        "isLoop": [ false ]
+    },
+    "SKY_ATTACK_1": {
+        "path": [ "Hero/Attack_1.mv1" ],
+        "animationSpeed": [ 110.0 ],
+        "startStep": [ 0.0 ],
+        "endStep": [ 45.0 ],
+        "isLoop": [ false ]
+    },
+    "SKY_ATTACK_2": {
+        "path": [ "Hero/Attack_2.mv1" ],
+        "animationSpeed": [ 110.0 ],
+        "startStep": [ 0.0 ],
+        "endStep": [ 54.0 ],
+        "isLoop": [ false ]
+    },
+    "FALL_ATTACK": {
+        "path": [ "Hero/Fall_Attack.mv1" ],
+        "animationSpeed": [ 110.0 ],
+        "startStep": [ 0.0 ],
+        "endStep": [ 70.0 ],
+        "isLoop": [ false ]
+    },
+    "SKILL": {
+        "path": [ "Hero/Skill.mv1" ],
+        "animationSpeed": [ 30.0 ],
+        "startStep": [ 0.0 ],
+        "endStep": [ 250.0 ],
+        "isLoop": [ false ]
+    },
+    "TECHNIQUE": {
+        "path": [ "Hero/WaveSword.mv1" ],
+        "animationSpeed": [ 30.0 ],
+        "startStep": [ 0.0 ],
+        "endStep": [ 65.0 ],
+        "isLoop": [ false ]
+    },
+    "HIT_LEFT": {
+        "path": [ "Hero/GetHit_Left.mv1" ],
+        "animationSpeed": [ 50.0 ],
+        "startStep": [ 0.0 ],
+        "endStep": [ 39.0 ],
+        "isLoop": [ false ]
+    },
+    "HIT_RIGHT": {
+        "path": [ "Hero/GetHit_Right.mv1" ],
+        "animationSpeed": [ 50.0 ],
+        "startStep": [ 0.0 ],
+        "endStep": [ 39.0 ],
+        "isLoop": [ false ]
+    },
+    "HIT_DOWN": {
+        "path": [ "Hero/HitDown.mv1" ],
+        "animationSpeed": [ 35.0 ],
+        "startStep": [ 0.0 ],
+        "endStep": [ 59.0 ],
+        "isLoop": [ false ]
+    },
+
+    "DEFENCE": {
+        "path": [ "Hero/Defence.mv1" ],
+        "animationSpeed": [ 40.0 ],
+        "startStep": [ 0.0 ],
+        "endStep": [ 55.0 ],
+        "isLoop": [ true ]
+    },
+    "PARIS": {
+        "path": [ "Hero/Paris.mv1" ],
+        "animationSpeed": [ 1.0 ],
+        "startStep": [ 12.0 ],
+        "endStep": [ 15.0 ],
+        "isLoop": [ true ]
+    },
+    "WAVE_SWORD": {
+        "path": [ "Hero/WaveSword.mv1" ],
+        "animationSpeed": [ 85.0 ],
+        "startStep": [ 0.0 ],
+        "endStep": [ 65.0 ],
+        "isLoop": [ false ]
+    },
+    "DEATH": {
+        "path": [ "Hero/Death.mv1" ],
+        "animationSpeed": [ 25.0 ],
+        "startStep": [ 0.0 ],
+        "endStep": [ 50.0 ],
+        "isLoop": [ false ]
+    }
+}

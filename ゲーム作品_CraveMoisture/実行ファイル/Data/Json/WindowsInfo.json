@@ -1,0 +1,17 @@
+{
+    "screenSize": {
+        "size": [ 1024, 640 ]
+    },
+    "screenColor": {
+      "color": [ 128, 128, 128 ]
+    },
+    "FPS": {
+      "frameRate": [60.0]
+    },
+    "windowMode": {
+        "flag": [ false ]
+    },
+    "mouseMode": {
+        "flag": [ true ]
+    }
+}

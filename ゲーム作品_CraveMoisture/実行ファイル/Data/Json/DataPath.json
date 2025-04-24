@@ -1,0 +1,26 @@
+{
+    "Json": {
+        "path": [ "Data/Json/" ]
+    },
+    "Image": {
+        "path": [ "Data/Image/" ]
+    },
+    "Model": {
+        "path": [ "Data/Model/" ]
+    },
+    "Movie": {
+        "path": [ "Data/Movie/" ]
+    },
+    "Effect": {
+        "path": [ "Data/Effect/" ]
+    },
+    "SoundBgm": {
+        "path": [ "Data/Sound/Bgm/" ]
+    },
+    "SoundWave": {
+        "path": [ "Data/Sound/Wave/" ]
+    },
+    "ShaderVertex": {
+        "path": [ "Data/Shader/Vertex/" ]
+    }
+}

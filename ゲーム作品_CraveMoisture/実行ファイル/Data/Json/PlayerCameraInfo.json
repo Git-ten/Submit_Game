@@ -1,0 +1,81 @@
+{
+    "DashDirection_1": {
+        "distance": [ 1700.0 ],
+        "speed": [ 7.0 ],
+        "relativeTarget": [ 0.0, 0.0, 0.0 ],
+        "cameraAngle": [ 0.0, 0.0, 0.0 ],
+        "eventTime": [ 2.0 ],
+        "eventName": [ "None" ]
+    },
+
+    "ChargeForwardDirection_1": {
+        "distance": [ 1500.0 ],
+        "speed": [ 2.0 ],
+        "relativeTarget": [ 0.0, 100.0, 0.0 ],
+        "cameraAngle": [ 0.0, 0.0, 0.0 ],
+        "eventTime": [ 2.6 ],
+        "eventName": [ "None" ]
+    },
+
+
+    "ChargeHorizontalDirection_1": {
+        "distance": [ 800.0 ],
+        "speed": [ 20.0 ],
+        "relativeTarget": [ 0.0, 0.0, 0.0 ],
+        "cameraAngle": [ 0.0, 0.0, 0.0 ],
+        "eventTime": [ 0.3 ],
+        "eventName": [ "None" ]
+    },
+    "ChargeHorizontalDirection_2": {
+        "distance": [ 1000.0 ],
+        "speed": [ 4.0 ],
+        "relativeTarget": [ 0.0, 0.0, 0.0 ],
+        "cameraAngle": [ 0.0, 0.0, 0.3 ],
+        "eventTime": [ 2.6 ],
+        "eventName": [ "None" ]
+    },
+
+
+    "AvoidDirection_1": {
+        "distance": [ 800.0 ],
+        "speed": [ 2.0 ],
+        "relativeTarget": [ 0.0, 0.0, 0.0 ],
+        "cameraAngle": [ 0.0, 0.0, 0.2 ],
+        "eventTime": [ 1.4 ],
+        "eventName": [ "None" ]
+    },
+
+
+    "SkillDirection_1": {
+        "distance": [ 500.0 ],
+        "speed": [ 2.0 ],
+        "relativeTarget": [ 0.0, 0.0, 0.0 ],
+        "cameraAngle": [ 0.0, 0.0, 0.0 ],
+        "eventTime": [ 1.0 ],
+        "eventName": [ "None" ]
+    },
+    "SkillDirection_2": {
+        "distance": [ 1000.0 ],
+        "speed": [ 5.0 ],
+        "relativeTarget": [ 0.0, 0.0, 0.0 ],
+        "cameraAngle": [ 0.0, 0.0, 0.0 ],
+        "eventTime": [ 45.0 ],
+        "eventName": [ "None" ]
+    },
+    "SkillDirection_3": {
+        "distance": [ 450.0 ],
+        "speed": [ 3.0 ],
+        "relativeTarget": [ 0.0, 0.0, 0.0 ],
+        "cameraAngle": [ 0.0, 0.0, 0.0 ],
+        "eventTime": [ 7.0 ],
+        "eventName": [ "None" ]
+    },
+    "SkillDirection_4": {
+        "distance": [ 1700.0 ],
+        "speed": [ 3.0 ],
+        "relativeTarget": [ 0.0, 250.0, 0.0 ],
+        "cameraAngle": [ 0.0, 0.0, 0.0 ],
+        "eventTime": [ 5.0 ],
+        "eventName": [ "None" ]
+    }
+}

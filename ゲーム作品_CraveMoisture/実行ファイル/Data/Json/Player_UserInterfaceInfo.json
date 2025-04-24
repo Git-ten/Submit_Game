@@ -1,0 +1,94 @@
+{
+    "DownGage": {
+        "angle": [ 0.0 ],
+        "center": [ 155, 598 ],
+        "exRate": [ 0.18999999999999953 ],
+        "posLeftUp": [ 28, 593 ],
+        "posRightDown": [ 282, 603 ]
+    },
+    "LockOnCarsol": {
+        "posLeftUp": [ 495, 232 ],
+        "posRightDown": [ 21, 21 ],
+        "center": [ 505, 242 ],
+        "exRate": [ 0.17086284403063234 ],
+        "angle": [ 0.0 ]
+    },
+    "ContinueRepairIcon": {
+        "angle": [ 0.0 ],
+        "center": [ 955, 553 ],
+        "exRate": [ 0.21999999999999947 ],
+        "posLeftUp": [ 899, 497 ],
+        "posRightDown": [ 1011, 609 ]
+    },
+    "IconCase": {
+        "angle": [ 0.0 ],
+        "center": [ 955, 553 ],
+        "exRate": [ 0.22000000000000014 ],
+        "posLeftUp": [ 899, 497 ],
+        "posRightDown": [ 1011, 609 ]
+    },
+    "PlayerHp": {
+        "angle": [ 0.0 ],
+        "center": [ 123, 552 ],
+        "exRate": [ 0.5 ],
+        "posLeftUp": [ 29, 514 ],
+        "posRightDown": [ 217, 590 ]
+    },
+    "Numbers_Point_1": {
+        "angle": [ 0.0 ],
+        "center": [ 996, 570 ],
+        "exRate": [ 0.35999999999999943 ],
+        "posLeftUp": [ 978, 547 ],
+        "posRightDown": [ 1014, 593 ]
+    },
+    "Numbers_Point_10": {
+        "angle": [ 0.0 ],
+        "center": [ 973, 570 ],
+        "exRate": [ 0.3399999999999995 ],
+        "posLeftUp": [ 956, 549 ],
+        "posRightDown": [ 990, 591 ]
+    },
+    "Numbers_Digit_1": {
+        "angle": [ 0.0 ],
+        "center": [ 951, 548 ],
+        "exRate": [ 0.5400000000000001 ],
+        "posLeftUp": [ 924, 514 ],
+        "posRightDown": [ 978, 582 ]
+    },
+    "Numbers_Digit_10": {
+        "angle": [ 0.0 ],
+        "center": [ 918, 548 ],
+        "exRate": [ 0.5299999999999996 ],
+        "posLeftUp": [ 891, 515 ],
+        "posRightDown": [ 945, 581 ]
+    },
+    "SkillGage": {
+        "angle": [ 0.0 ],
+        "center": [ 78, 447 ],
+        "exRate": [ 0.3499999999999994 ],
+        "posLeftUp": [ 34, 403 ],
+        "posRightDown": [ 122, 491 ]
+    },
+    "SkillGageCase": {
+        "angle": [ 0.0 ],
+        "center": [ 78, 447 ],
+        "exRate": [ 0.3499999999999994 ],
+        "posLeftUp": [ -50, 319 ],
+        "posRightDown": [ 206, 575 ]
+    },
+    "Param": {
+        "hp": [ 100.0 ],
+        "hpMax": [ 100.0 ],
+        "speed": [ 50.0 ],
+        "dashSpeed": [ 67.0 ],
+        "downGage": [ 0.0 ],
+        "downGageMax": [ 100.0 ],
+        "flinchParam": [ 0.0 ],
+        "flinchParamMax": [ 0.1 ],
+        "jumpPower": [ 35.0 ],
+        "avoidSpeed": [ 60.0 ],
+        "skillGage": [ 0.0 ],
+        "skillGageMax": [ 100.0 ],
+        "attackPower": [ 10.0 ]
+    }
+}

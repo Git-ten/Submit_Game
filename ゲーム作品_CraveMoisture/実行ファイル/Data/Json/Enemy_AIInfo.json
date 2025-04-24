@@ -1,0 +1,147 @@
+{
+    "TransToActionEdge": {
+        "from": [ "PARENT_NODE" ],
+        "end": [
+            "ACTION_MOVE_NODE",
+            "ACTION_ATTACK_1_NODE",
+            "ACTION_ATTACK_2_NODE",
+            "ACTION_ATTACK_3_NODE",
+            "ACTION_ATTACK_4_NODE",
+            "ACTION_ATTACK_5_NODE",
+            "ACTION_ATTACK_6_NODE",
+            "ACTION_ATTACK_AWAKE_NODE"
+        ],
+        "condition": [
+            "ConditionMove",
+            "ConditionAttack_1",
+            "ConditionAttack_2",
+            "ConditionAttack_3",
+            "ConditionAttack_4",
+            "ConditionAttack_5",
+            "ConditionAttack_6",
+            "ConditionAttack_Awake"
+        ],
+        "cost": [
+            1.1,
+            2.3,
+            1.2,
+            1.4,
+            1.5,
+            1.6,
+            1.8,
+            2.4,
+            3.0
+        ]
+    },
+
+
+    "TransToAttack_1ContinueEdge": {
+        "from": [ "ACTION_ATTACK_1_NODE" ],
+        "end": [
+            "ACTION_END_SHORT_NODE",
+            "ACTION_ATTACK_2_NODE",
+            "ACTION_ATTACK_6_NODE",
+            "ACTION_ATTACK_3_NODE"
+        ],
+        "condition": [
+            "ConditionEndAttack_1",
+            "ConditionNearDistance",
+            "ConditionNearDisBack",
+            "ConditionMediumDistance"
+        ],
+        "cost": [
+            0.5,
+            0.8,
+            0.9,
+            0.6
+        ]
+    },
+
+
+    "TransToAttack_2ContinueEdge": {
+        "from": [ "ACTION_ATTACK_2_NODE" ],
+        "end": [
+            "ACTION_END_SHORT_NODE",
+            "ACTION_ATTACK_6_NODE"
+        ],
+        "condition": [
+            "ConditionEndAttack_2",
+            "ConditionNearDisBack"
+        ],
+        "cost": [
+            0.5,
+            0.6
+        ]
+    },
+
+
+    "TransToAttack_3ContinueEdge": {
+        "from": [ "ACTION_ATTACK_3_NODE" ],
+        "end": [
+            "ACTION_END_SHORT_NODE",
+            "ACTION_ATTACK_1_NODE",
+            "ACTION_ATTACK_2_NODE"
+        ],
+        "condition": [
+            "ConditionEndAttack_3",
+            "ConditionMediumDistance",
+            "ConditionNearDistance"
+        ],
+        "cost": [
+            0.5,
+            0.6,
+            0.7
+        ]
+    },
+
+
+    "TransToAttack_4ContinueEdge": {
+        "from": [ "ACTION_ATTACK_4_NODE" ],
+        "end": [
+            "ACTION_END_SHORT_NODE",
+            "ACTION_ATTACK_6_NODE"
+        ],
+        "condition": [
+            "ConditionEndAttack_4",
+            "ConditionNearDisBack"
+        ],
+        "cost": [
+            0.5,
+            0.6
+        ]
+    },
+
+
+    "TransToAttack_5ContinueEdge": {
+        "from": [ "ACTION_ATTACK_5_NODE" ],
+        "end": [
+            "ACTION_END_LONG_NODE",
+            "ACTION_ATTACK_6_NODE"
+        ],
+        "condition": [
+            "ConditionEndAttack_5",
+            "ConditionNearDistance"
+        ],
+        "cost": [
+            0.5,
+            0.8
+        ]
+    },
+
+
+    "TransToAttack_6ContinueEdge": {
+        "from": [ "ACTION_ATTACK_6_NODE" ],
+        "end": [
+            "ACTION_END_LONG_NODE",
+            "ACTION_ATTACK_3_NODE"
+        ],
+        "condition": [
+            "ConditionEndAttack_6",
+            "ConditionMediumDistance"
+        ],
+        "cost": [
+            0.5,
+            0.6
+        ]
+    }
+}

@@ -1,0 +1,44 @@
+{
+    "LevelEasy": {
+        "angle": [ 0.0 ],
+        "center": [ 688, 152 ],
+        "exRate": [ 1.0 ],
+        "posLeftUp": [ 525, 74 ],
+        "posRightDown": [ 851, 231 ]
+    },
+    "LevelHard": {
+        "angle": [ 0.0 ],
+        "center": [ 701, 515 ],
+        "exRate": [ 1.0 ],
+        "posLeftUp": [ 534, 432 ],
+        "posRightDown": [ 869, 598 ]
+    },
+    "LevelNormal": {
+        "angle": [ 0.0 ],
+        "center": [ 780, 331 ],
+        "exRate": [ 1.0 ],
+        "posLeftUp": [ 535, 248 ],
+        "posRightDown": [ 1026, 414 ]
+    },
+    "SelectEnemyEvilGoa": {
+        "angle": [ 0.0 ],
+        "center": [ 263, 348 ],
+        "exRate": [ 0.8300000000000001 ],
+        "posLeftUp": [ 58, 95 ],
+        "posRightDown": [ 468, 601 ]
+    },
+    "SelectLevelBack": {
+        "angle": [ 0.0 ],
+        "center": [ 960, 540 ],
+        "exRate": [ 1.0 ],
+        "posLeftUp": [ 0, 0 ],
+        "posRightDown": [ 1920, 1080 ]
+    },
+    "SelectCircle": {
+        "angle": [ 0.0 ],
+        "center": [ 675, 171 ],
+        "exRate": [ 0.29999999999999954 ],
+        "posLeftUp": [ 531, 27 ],
+        "posRightDown": [ 819, 315 ]
+    }
+}

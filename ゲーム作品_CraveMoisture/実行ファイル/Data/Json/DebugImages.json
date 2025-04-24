@@ -1,0 +1,58 @@
+{
+    "HightPoliExplosion": {
+        "angle": [ 0.0 ],
+        "center": [ 476, 103 ],
+        "exRate": [ 0.38999999999999846 ],
+        "posLeftUp": [ 427, 54 ],
+        "posRightDown": [ 525, 152 ]
+    },
+    "LowPoliExplosion": {
+        "angle": [ 0.0 ],
+        "center": [ 500, 181 ],
+        "exRate": [ 0.6399999999999997 ],
+        "posLeftUp": [ 460, 141 ],
+        "posRightDown": [ 540, 221 ]
+    },
+    "PlayerJet": {
+        "angle": [ 0.0 ],
+        "center": [ 523, 446 ],
+        "exRate": [ 1.1399999999999992 ],
+        "posLeftUp": [ 505, 428 ],
+        "posRightDown": [ 541, 464 ]
+    },
+    "PlayerBullet": {
+        "angle": [ 0.0 ],
+        "center": [ 522, 408 ],
+        "exRate": [ 0.7799999999999998 ],
+        "posLeftUp": [ 510, 396 ],
+        "posRightDown": [ 534, 420 ]
+    },
+    "PlayerStrongGage": {
+        "angle": [ 1.5800000000000005 ],
+        "center": [ 36, 357 ],
+        "exRate": [ 0.7599999999999998 ],
+        "posLeftUp": [ -109, 345 ],
+        "posRightDown": [ 181, 369 ]
+    },
+    "PlayerHp": {
+        "angle": [ 0.0 ],
+        "center": [ 519, 601 ],
+        "exRate": [ 0.31999999999999973 ],
+        "posLeftUp": [ 459, 577 ],
+        "posRightDown": [ 579, 625 ]
+    },
+    "EnemyRobot_1": {
+        "angle": [ 0.0 ],
+        "center": [ 491, 164 ],
+        "exRate": [ 1.2000000000000002 ],
+        "posLeftUp": [ 463, 136 ],
+        "posRightDown": [ 519, 192 ]
+    },
+    "BackMovie": {
+        "angle": [ 0.0 ],
+        "center": [ 507, 325 ],
+        "exRate": [ 0.6100000000000002 ],
+        "posLeftUp": [ -78, -4 ],
+        "posRightDown": [ 1092, 654 ]
+    }
+}

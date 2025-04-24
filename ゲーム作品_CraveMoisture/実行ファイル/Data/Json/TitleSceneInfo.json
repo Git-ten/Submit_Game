@@ -1,0 +1,72 @@
+{
+    "PushAnyButton": {
+        "angle": [ 0.0 ],
+        "center": [ 521, 422 ],
+        "exRate": [ 0.232362585916977 ],
+        "posLeftUp": [ 299, 393 ],
+        "posRightDown": [ 743, 451 ]
+    },
+    "TitleBack": {
+        "angle": [ 0.0 ],
+        "center": [ 506, 323 ],
+        "exRate": [ 0.6234658608579715 ],
+        "posLeftUp": [ -92, -13 ],
+        "posRightDown": [ 1104, 659 ]
+    },
+    "TitleName": {
+        "angle": [ 0.0 ],
+        "center": [ 509, 277 ],
+        "exRate": [ 0.6234658608579715 ],
+        "posLeftUp": [ 179, 203 ],
+        "posRightDown": [ 839, 351 ]
+    },
+    "MenuCase": {
+        "angle": [ 0.0 ],
+        "center": [ 509, 416 ],
+        "exRate": [ 1.3800000000000003 ],
+        "posLeftUp": [ 225, 211 ],
+        "posRightDown": [ 793, 621 ]
+    },
+    "No": {
+        "angle": [ 0.0 ],
+        "center": [ 361, 441 ],
+        "exRate": [ 0.3499999999999994 ],
+        "posLeftUp": [ 265, 409 ],
+        "posRightDown": [ 457, 473 ]
+    },
+    "Tutorial_Question": {
+        "angle": [ 0.0 ],
+        "center": [ 511, 305 ],
+        "exRate": [ 0.3099999999999995 ],
+        "posLeftUp": [ 228, 284 ],
+        "posRightDown": [ 794, 326 ]
+    },
+    "SelectCircle": {
+        "angle": [ 0.0 ],
+        "center": [ 359, 449 ],
+        "exRate": [ 0.1699999999999995 ],
+        "posLeftUp": [ 278, 368 ],
+        "posRightDown": [ 440, 530 ]
+    },
+    "Yes": {
+        "angle": [ 0.0 ],
+        "center": [ 676, 439 ],
+        "exRate": [ 0.39999999999999947 ],
+        "posLeftUp": [ 602, 407 ],
+        "posRightDown": [ 750, 471 ]
+    },
+    "ShutDown": {
+        "angle": [ 0.0 ],
+        "center": [ 971, 51 ],
+        "exRate": [ 0.14999999999999986 ],
+        "posLeftUp": [ 933, 13 ],
+        "posRightDown": [ 1009, 89 ]
+    },
+    "ShutDownKey": {
+        "angle": [ 0.0 ],
+        "center": [ 999, 109 ],
+        "exRate": [ 0.5699999999999996 ],
+        "posLeftUp": [ 903, 91 ],
+        "posRightDown": [ 1095, 127 ]
+    }
+}

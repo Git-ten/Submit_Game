@@ -1,0 +1,103 @@
+{
+    "Bear": {
+        "pos": [ 1982.47998046875, 200.1707763671875, -250.12193298339844 ],
+        "quaRot": [ -0.7250962853431702, 0.0, 0.6886475086212158, 0.0 ],
+        "quaRotLocal": [ 1.0, 0.0, 0.0, 0.0 ],
+        "rot": [ -0.0, -1.5192443132400513, 0.0 ],
+        "scl": [ 5.752159118652344, 5.752159118652344, 5.752159118652344 ]
+    },
+
+    "CollSphere": {
+        "size": [ 600.0 ],
+        "offset": [ -650.0 ]
+    },
+    "Param": {
+        "hp": [ 1000.0 ],
+        "hpMax": [ 1000.0 ],
+        "speed": [ 3.0 ],
+        "dashSpeed": [ 60.0 ],
+        "downGage": [ 0.0 ],
+        "downGageMax": [ 100.0 ],
+        "flinchParam": [ 0.0 ],
+        "flinchParamMax": [ 100.0 ],
+        "jumpPower": [ 80.0 ],
+        "attackPower": [ 5.0 ],
+
+        "attackRagTime_1": [ 3.0 ],
+        "attackRagTime_2": [ 2.0 ],
+        "attackRagTime_3": [ 2.0 ],
+        "attackRagTime_4": [ 3.0 ],
+        "attackRagTime_5": [ 8.0 ],
+        "attackRagTime_6": [ 4.0 ],
+        "attackAwakeRagTime": [ 20.0 ],
+
+        "attackCollision_1": [ 30.0 ],
+        "attackCollision_2": [ 20.0 ],
+        "attackCollision_3": [ 94.0 ],
+        "attackCollision_4": [ 60.0 ],
+        "attackCollision_5": [ 40.0 ],
+        "attackCollision_6": [ 165.0 ],
+        "attackCollision_Awake": [ 210.0 ],
+
+        "collisionBone": [ "mixamorig:RightHand" ]
+    },
+
+
+    "IDLE": {
+        "path": [ "Bear/Idle.mv1" ],
+        "animationSpeed": [ 50.0 ],
+        "startStep": [ 0.0 ],
+        "endStep": [ 221.0 ],
+        "isLoop": [ true ]
+    },
+    "WALK": {
+        "path": [ "Bear/Walk.mv1" ],
+        "animationSpeed": [ 10.0 ],
+        "startStep": [ 0.0 ],
+        "endStep": [ 40.0 ],
+        "isLoop": [ true ]
+    },
+    "ATTACK_1": {
+        "path": [ "Bear/Attack_1.mv1" ],
+        "animationSpeed": [ 80.0 ],
+        "startStep": [ 0.0 ],
+        "endStep": [ 90.0 ],
+        "isLoop": [ false ]
+    },
+    "HIT_LEFT": {
+        "path": [ "Bear/GetHit_Left.mv1" ],
+        "animationSpeed": [ 45.0 ],
+        "startStep": [ 0.0 ],
+        "endStep": [ 50.0 ],
+        "isLoop": [ false ]
+    },
+    "HIT_RIGHT": {
+        "path": [ "Bear/GetHit_Right.mv1" ],
+        "animationSpeed": [ 45.0 ],
+        "startStep": [ 0.0 ],
+        "endStep": [ 54.0 ],
+        "isLoop": [ false ]
+    },
+    "HIT_DOWN": {
+        "path": [ "Bear/GetHit_Down.mv1" ],
+        "animationSpeed": [ 45.0 ],
+        "startStep": [ 0.0 ],
+        "endStep": [ 120.0 ],
+        "isLoop": [ false ]
+    },
+    "GET_UP": {
+        "path": [ "Bear/GetUp.mv1" ],
+        "animationSpeed": [ 45.0 ],
+        "startStep": [ 0.0 ],
+        "endStep": [ 70.0 ],
+        "isLoop": [ false ]
+    },
+
+    "DEATH": {
+        "path": [ "Bear/Death.mv1" ],
+        "animationSpeed": [ 30.0 ],
+        "startStep": [ 0.0 ],
+        "endStep": [ 130.0 ],
+        "isLoop": [ false ]
+    }
+}

@@ -1,0 +1,180 @@
+{
+    "Demon": {
+        "pos": [ 2003.8310546875, 280.65191650390625, -249.968994140625 ],
+        "quaRot": [ -0.7250962634012381, 0.0, 0.6886475214516946, 0.0 ],
+        "quaRotLocal": [ 1.0, 0.0, 0.0, 0.0 ],
+        "rot": [ -0.0, -1.5192443132400513, 0.0 ],
+        "scl": [ 60.39997863769531, 60.39997863769531, 60.39997863769531 ]
+    },
+    
+    "CollSphere": {
+        "size": [ 600.0 ],
+        "offset": [ -650.0 ]
+    },
+    "Param": {
+        "hp": [ 2000.0 ],
+        "hpMax": [ 2000.0 ],
+        "speed": [ 3.0 ],
+        "dashSpeed": [ 60.0 ],
+        "downGage": [ 0.0 ],
+        "downGageMax": [ 100.0 ],
+        "flinchParam": [ 0.0 ],
+        "flinchParamMax": [ 100.0 ],
+        "jumpPower": [ 40.0 ],
+        "attackPower": [ 13.0 ],
+
+        "attackRagTime_1": [ 3.0 ],
+        "attackRagTime_2": [ 2.0 ],
+        "attackRagTime_3": [ 2.0 ],
+        "attackRagTime_4": [ 3.0 ],
+        "attackRagTime_5": [ 8.0 ],
+        "attackRagTime_6": [ 4.0 ],
+        "attackAwakeRagTime": [ 20.0 ],
+
+        "attackCollision_1": [ 40.0 ],
+        "attackCollision_2": [ 20.0 ],
+        "attackCollision_3": [ 94.0 ],
+        "attackCollision_4": [ 60.0 ],
+        "attackCollision_5": [ 40.0 ],
+        "attackCollision_6": [ 165.0 ],
+        "attackCollision_Awake": [ 210.0 ],
+
+        "collisionBone": [ "palm_r", "palm_l", "head_1" ]
+    },
+
+
+    "IDLE": {
+        "path": [ "Demon/Idle.mv1" ],
+        "animationSpeed": [ 50.0 ],
+        "startStep": [ 0.0 ],
+        "endStep": [ 118.0 ],
+        "isLoop": [ true ]
+    },
+    "JUMP": {
+        "path": [ "Demon/Jump.mv1" ],
+        "animationSpeed": [ 50.0 ],
+        "startStep": [ 0.0 ],
+        "endStep": [ 40.0 ],
+        "isLoop": [ false ]
+    },
+    "WALK": {
+        "path": [ "Demon/Walk.mv1" ],
+        "animationSpeed": [ 10.0 ],
+        "startStep": [ 0.0 ],
+        "endStep": [ 24.0 ],
+        "isLoop": [ true ]
+    },
+    "ROAR": {
+        "path": [ "Demon/Roar.mv1" ],
+        "animationSpeed": [ 30.0 ],
+        "startStep": [ 0.0 ],
+        "endStep": [ 118.0 ],
+        "isLoop": [ false ]
+    },
+    "ATTACK_1": {
+        "path": [ "Demon/Attack_1.mv1" ],
+        "animationSpeed": [ 60.0 ],
+        "startStep": [ 0.0 ],
+        "endStep": [ 116.0 ],
+        "isLoop": [ false ]
+    },
+    "ATTACK_2": {
+        "path": [ "Demon/Attack_2.mv1" ],
+        "animationSpeed": [ 80.0 ],
+        "startStep": [ 0.0 ],
+        "endStep": [ 118.0 ],
+        "isLoop": [ false ]
+    },
+    "ATTACK_3": {
+        "path": [ "Demon/Attack_3.mv1" ],
+        "animationSpeed": [ 110.0 ],
+        "startStep": [ 0.0 ],
+        "endStep": [ 147.0 ],
+        "isLoop": [ false ]
+    },
+    "ATTACK_4": {
+        "path": [ "Demon/Attack_4.mv1" ],
+        "animationSpeed": [ 80.0 ],
+        "startStep": [ 0.0 ],
+        "endStep": [ 99.0 ],
+        "isLoop": [ false ]
+    },
+    "ATTACK_5": {
+        "path": [ "Demon/Attack_Jump.mv1" ],
+        "animationSpeed": [ 70.0 ],
+        "startStep": [ 0.0 ],
+        "endStep": [ 189.0 ],
+        "isLoop": [ false ]
+    },
+    "ATTACK_6": {
+        "path": [ "Demon/Attack_Spin.mv1" ],
+        "animationSpeed": [ 160.0 ],
+        "startStep": [ 0.0 ],
+        "endStep": [ 269.0 ],
+        "isLoop": [ false ]
+    },
+    "HIT_LEFT": {
+        "path": [ "Demon/GetHit_Left.mv1" ],
+        "animationSpeed": [ 45.0 ],
+        "startStep": [ 0.0 ],
+        "endStep": [ 70.0 ],
+        "isLoop": [ false ]
+    },
+    "HIT_RIGHT": {
+        "path": [ "Demon/GetHit_Right.mv1" ],
+        "animationSpeed": [ 45.0 ],
+        "startStep": [ 0.0 ],
+        "endStep": [ 70.0 ],
+        "isLoop": [ false ]
+    },
+    "HIT_DOWN": {
+        "path": [ "Demon/GetHit_Down.mv1" ],
+        "animationSpeed": [ 45.0 ],
+        "startStep": [ 0.0 ],
+        "endStep": [ 70.0 ],
+        "isLoop": [ false ]
+    },
+    "GET_UP": {
+        "path": [ "Demon/GetUp.mv1" ],
+        "animationSpeed": [ 45.0 ],
+        "startStep": [ 0.0 ],
+        "endStep": [ 90.0 ],
+        "isLoop": [ false ]
+    },
+
+    "DEATH": {
+        "path": [ "Demon/Death.mv1" ],
+        "animationSpeed": [ 30.0 ],
+        "startStep": [ 0.0 ],
+        "endStep": [ 109.0 ],
+        "isLoop": [ false ]
+    },
+    "AWAYKE": {
+        "path": [ "Demon/Awayke.mv1" ],
+        "animationSpeed": [ 30.0 ],
+        "startStep": [ 0.0 ],
+        "endStep": [ 279.0 ],
+        "isLoop": [ false ]
+    },
+    "ATTACK_3_AWAKE": {
+        "path": [ "Demon/Attack_3_Awake.mv1" ],
+        "animationSpeed": [ 150.0 ],
+        "startStep": [ 0.0 ],
+        "endStep": [ 240.0 ],
+        "isLoop": [ false ]
+    },
+    "ATTACK_6_AWAKE": {
+        "path": [ "Demon/Attack_Spin_Awake.mv1" ],
+        "animationSpeed": [ 50.0 ],
+        "startStep": [ 0.0 ],
+        "endStep": [ 70.0 ],
+        "isLoop": [ false ]
+    },
+    "ATTACK_AWAKE": {
+        "path": [ "Demon/Attack_Most.mv1" ],
+        "animationSpeed": [ 40.0 ],
+        "startStep": [ 0.0 ],
+        "endStep": [ 380.0 ],
+        "isLoop": [ false ]
+    }
+}

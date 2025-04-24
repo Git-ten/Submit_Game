@@ -1,0 +1,23 @@
+{
+    "EnemyHp": {
+        "angle": [ 0.0 ],
+        "center": [ 532, 490 ],
+        "exRate": [ 0.49 ],
+        "posLeftUp": [ 204, 476 ],
+        "posRightDown": [ 860, 504 ]
+    },
+    "DownGage": {
+        "angle": [ 0.0 ],
+        "center": [ 595, 450 ],
+        "exRate": [ 0.32999999999999946 ],
+        "posLeftUp": [ 374, 441 ],
+        "posRightDown": [ 816, 459 ]
+    },
+    "EnemyName": {
+        "angle": [ 0.0 ],
+        "center": [ 386, 448 ],
+        "exRate": [ 0.6299999999999998 ],
+        "posLeftUp": [ 225, 428 ],
+        "posRightDown": [ 547, 468 ]
+    }
+}

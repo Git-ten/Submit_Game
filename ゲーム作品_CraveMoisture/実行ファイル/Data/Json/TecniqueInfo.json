@@ -1,0 +1,7 @@
+{
+    "Repair": {
+        "tecniqueTime": [ 10.0 ],
+        "recastTime": [ 0.0 ],
+        "recastTimeMax": [ 20.0 ]
+    }
+}

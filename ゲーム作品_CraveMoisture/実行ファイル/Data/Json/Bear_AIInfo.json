@@ -1,0 +1,31 @@
+{
+    "TransToActionEdge": {
+        "from": [ "PARENT_NODE" ],
+        "end": [
+            "ACTION_MOVE_NODE",
+            "ACTION_ATTACK_1_NODE"
+        ],
+        "condition": [
+            "ConditionMove",
+            "ConditionAttack_1"
+        ],
+        "cost": [
+            1.1,
+            1.2
+        ]
+    },
+
+
+    "TransToAttack_1ContinueEdge": {
+        "from": [ "ACTION_ATTACK_1_NODE" ],
+        "end": [
+            "ACTION_END_SHORT_NODE"
+        ],
+        "condition": [
+            "ConditionEndAttack_1"
+        ],
+        "cost": [
+            0.5
+        ]
+    }
+}
